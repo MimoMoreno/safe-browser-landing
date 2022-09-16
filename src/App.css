@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #39404c;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,86 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.safe-browser-title h1 {
+  color: #fff;
+  font-size: 110px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin: 10px 0;
+  top: 200px;
+}
+
+.safe-browser-title h1:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #33D6F5;
+}
+
+.safe-browser-title h1:nth-child(2) {
+  color: #33D6F5;
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+
+.title {
+  font-weight: 600;
+  font-size: 55px;
+  letter-spacing: 0.01em;
+  margin: 30px 0;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 28px;
+  /* color: #9aadcc; */
+  color: #b2c3de;
+  width: 35%;
+  letter-spacing: 0.02em;
+  /* margin: 30px 0 90px 0; */
+  margin: 110px 0 30px 0;
+}
+
+button {
+  width: 200px;
+  background-color: #33D6F5;
+  padding: 16px 40px;
+  border-width: 0px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  color: #39404c;
+  font-family: 'Montserrat', sans-serif;
 }
