@@ -43,7 +43,7 @@
   position: absolute;
   transform: translate(-50%, -50%);
   margin: 10px 0;
-  top: 30vh;
+  top: 25vh;
 }
 
 .safe-browser-title h1:nth-child(1) {
@@ -102,7 +102,7 @@
   color: #b2c3de;
   width: 45%;
   letter-spacing: 0.02em;
-  margin: 70px 0 30px 0;
+  margin: 90px 0 30px 0;
 }
 
 .instructions {
