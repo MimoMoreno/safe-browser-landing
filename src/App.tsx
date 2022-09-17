@@ -1,5 +1,5 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
@@ -9,13 +9,17 @@ function App() {
           <h1>Sekura</h1>
           <h1>Sekura</h1>
         </div>
-        {/* <div className="title">
-          Start surfing freely and safely <b>now!</b>
-        </div> */}
         <div className="description">
-          Download the Sekura app and start surfing around all the Internet through ipfs
+          Navigate the web without depending on any centralized providers.
         </div>
         <button>DOWNLOAD</button>
+        <div className="instructions">
+          or{" "}
+          <a href="https://github.com/gnardini/safe-browser" target="_blank">
+            install from source
+          </a>{" "}
+          following the instructions on GitHub
+        </div>
       </header>
     </div>
   );

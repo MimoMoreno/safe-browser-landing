@@ -100,9 +100,19 @@
   line-height: 28px;
   /* color: #9aadcc; */
   color: #b2c3de;
-  width: 35%;
+  width: 45%;
   letter-spacing: 0.02em;
   /* margin: 30px 0 90px 0; */
+  margin: 110px 0 30px 0;
+}
+
+.instructions {
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 28px;
+  color: #b2c3de;
+  width: 45%;
+  letter-spacing: 0.02em;
   margin: 110px 0 30px 0;
 }
 

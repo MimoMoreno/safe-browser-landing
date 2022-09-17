@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a:visited {
+  color: #b2c3de;
+  background-color: transparent;
+  text-decoration: none;
+}
