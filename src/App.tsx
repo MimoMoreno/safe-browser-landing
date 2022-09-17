@@ -15,7 +15,11 @@ function App() {
         <button>DOWNLOAD</button>
         <div className="instructions">
           or{" "}
-          <a href="https://github.com/gnardini/safe-browser" target="_blank">
+          <a
+            href="https://github.com/gnardini/safe-browser"
+            target="_blank"
+            rel="noreferrer"
+          >
             install from source
           </a>{" "}
           following the instructions on GitHub
