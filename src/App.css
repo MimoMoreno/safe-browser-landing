@@ -43,7 +43,7 @@
   position: absolute;
   transform: translate(-50%, -50%);
   margin: 10px 0;
-  top: 200px;
+  top: 30vh;
 }
 
 .safe-browser-title h1:nth-child(1) {
